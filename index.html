@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv=" X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <header>
+        <nav class="bg-gray-800" >
+            <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+              
+                <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                  <div class="flex flex-shrink-0 items-center">
+                    <a class="navbar-brand text-uppercase fw-bold" href="#">
+                        <span class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded"> Beni Miansi</span> 
+                      </a>
+                  </div>
+                  <div class="hidden sm:ml-6 sm:block">
+                    <div class="flex space-x-4">
+                     
+                      <a href="#accueil" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm-4 font-medium">Accueil</a>
+                      <a href="#projects" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm-4 font-medium">Projects</a>
+                      <a href="#contact" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm-4 font-medium">Contact</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </nav>              
+    </header>
+
+               
+                <!--accuel-->
+    <section >
+         <div id="accueil" class="bg-cover bg-center h-screen flex items-center" class="bg-gray-100 p-8" style=" background-image: url('img/ordi.jpg');">
+      <div class="container mx-auto text-center text-white">
+                <h1 class="text-5xl lg:text-6xl font-bold mb-4">Bienvenue </h1>
+                <p class="text-lg lg:text-xl mb-8">Je m'appelle <span class="uppercase ...">Beni Miansi</span> <br>Je suis etudiant a <strong class="uppercase ..."> gomycode</strong> en  Software developer </p>
+              
+
+          <div class="container mx-auto">
+                           <h2 class="text-3xl font-bold mb-4">Mes compétences</h2>
+               <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                         <!-- Compétence 1 -->
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                          <h3 class="text-xl font-semibold mb-2">Compétence 1</h3>
+                        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, cum fugiat suscipit labore nihil explicabo veniam at nemo consequatur blanditiis fuga ea! Perspiciatis, quam hic? Alias ipsa minus maiores porro!.</p>
+                  </div>
+
+                           <!-- Compétence 2 -->
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                           <h3 class="text-xl font-semibold mb-2">Compétence 2</h3>
+                         <p class="text-gray-700">Description de la compétence 2.</p>
+                     </div>
+
+                            <!-- Compétence 3 -->
+                      <div class="bg-white rounded-lg shadow-md p-6">
+                           <h3 class="text-xl font-semibold mb-2">Compétence 3</h3>
+                       <p class="text-gray-700">Lorem ipsum dolor, sit amet consectetur adipisici</p>
+                 </div>
+                 <br>
+                </div> 
+                 <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded">En savoir plus</a>
+            </div>
+          </div>
+          </section>
+          <!--projects-->
+          <section >  
+            <div id="projects" class="bg-blue-200" class="bg-gray-100 p-8">
+            <div class="container mx-auto">
+              <h2 class="text-3xl font-bold mb-4">Liste de projets</h2>
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                  <!-- Projet 1 -->
+                  <div class="bg-white rounded-lg shadow-md p-6">
+                      <img src="img/IMG-20240320-WA0010.jpg" alt="Project 1" class="w-full h-40 object-cover mb-4">
+                      <h3 class="text-xl font-semibold mb-2">Titre du projet 1</h3>
+                      <p class="text-gray-700"> projet 1.</p>
+                  </div>
+          
+                  <!-- Projet 2 -->
+                  <div class="bg-white rounded-lg shadow-md p-6">
+                      <img src="img/IMG-20240320-WA0011.jpg" alt="Project 2" class="w-full h-40 object-cover mb-4">
+                      <h3 class="text-xl font-semibold mb-2">Titre du projet 2</h3>
+                      <p class="text-gray-700">projet 2.</p>
+                  </div>
+          
+                  <!-- Projet 3 -->
+                  <div class="bg-white rounded-lg shadow-md p-6">
+                    <img src="img/IMG-20240320-WA0012.jpg" alt="Project 2" class="w-full h-40 object-cover mb-4">
+                      <h3 class="text-xl font-semibold mb-2">Titre du projet 3</h3>
+                      <p class="text-gray-700"> projet 3.</p>
+                  </div>
+              </div>
+          </div> <br>
+          
+           </div>
+          </section>
+          <section>
+            <div id="contact" class="bg-blue-200" class="bg-gray-100 p-8">
+              <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-4">Contactez-nous</h2>
+                <form class="max-w-lg mx-auto">
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700 font-bold mb-2">Nom</label>
+                        <input type="text" id="name" name="name" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-blue-500" placeholder="Votre nom" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 font-bold mb-2">E-mail</label>
+                        <input type="email" id="email" name="email" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-blue-500" placeholder="Votre e-mail" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
+                        <textarea id="message" name="message" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-blue-500" rows="5" placeholder="Votre message" required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Envoyer</button>
+                    </div>
+                </form>
+               </div><br>
+              </div>
+          </section>
+
+          <footer class="bg-gray-800 text-white p-8">
+            <div class="container mx-auto flex justify-between items-center">
+                <!-- Section des icônes de réseaux sociaux -->
+                <div class="flex space-x-4">
+                  <div class="col-12 col-md-4 text-md-end">
+                    <ul class="list-inline mb-0">
+                      <li class="list-inline-item">
+                        <a href="https://fr.linkedin.com/" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="LinkedIn">
+                          <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="https://www.instagram.com/" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Instagram">
+                          <i class="fab fa-instagram-square fa-2x"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Twitter">
+                          <i class="fab fa-twitter-square fa-2x"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                          <a href="https://www.facebook.com/?locale=fr_FR" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="facebook">
+                            <i class="fab fa-facebook-square fa-2x"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="https://www.whatsapp.com/?lang=fr_FR" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="whatsapp">
+                            <i class="fab fa-whatsapp-square fa-2x"></i>
+                          </a>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <!-- Section des droits d'auteur -->
+                <div class="text-center">
+                    <p>&copy; Beni Miansi</p>
+                </div>
+            </div>
+        </footer>
+
+</body>
+
+</html>
